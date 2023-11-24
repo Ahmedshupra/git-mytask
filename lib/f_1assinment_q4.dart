@@ -221,7 +221,7 @@ void main() {
                       Logos.figma,
                       size: 30,
                     ),
-                    Text('Skype Primium\n 21 june 2022'
+                    Text('Figm \n 21 june 2022'
                       ,),
                     SizedBox(width: 60),
                     Row(
