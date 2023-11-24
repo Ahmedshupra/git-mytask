@@ -20,15 +20,38 @@ void main() {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(50.0),
-                    child: Image.asset('assets/images/img_1.png',),
+                    child: Image.asset(
+                      'assets/images/img_1.png',
+                    ),
                   ),
-                  SingleChildScrollView(),
-                  Text('Trak your work. \n Get Result',
-                  style: TextStyle(
-                    fontSize: 22,
 
+                  Text(
+                    'Trak your work. \n Get Result',
+                    style: TextStyle(
+                      fontSize: 22,
+                    ),
                   ),
-                  )
+                  Container(
+                    color: Colors.white,
+                    width: 300,
+                    height: 70,
+                    margin: EdgeInsets.all(120),
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration,
+                    child: Column(
+
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        Text('ok,got it',
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+
+                          ),
+                        ),
+                  SizedBox(height: 10.5)    ],
+                    ),
+                  ),
                 ],
               ),
             ),
