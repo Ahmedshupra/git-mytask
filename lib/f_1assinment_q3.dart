@@ -37,7 +37,7 @@ void main() {
                     height: 70,
                     margin: EdgeInsets.all(120),
                     padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration,
+
                     child: Column(
 
                       mainAxisAlignment: MainAxisAlignment.end,
