@@ -8,8 +8,8 @@ void main() {
         backgroundColor: Color(0xff0f1163),
         elevation: 0,
       ),
-      body: Container(
-        color: Color(0xff0f1163),
+      body: Drawer(
+        backgroundColor: Color(0xff0f1163),
         child: Column(
           children: [
             SizedBox(
