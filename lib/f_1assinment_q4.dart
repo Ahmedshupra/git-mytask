@@ -221,7 +221,7 @@ void main() {
                       Logos.figma,
                       size: 30,
                     ),
-                    Text('Figm \n 21 june 2022'
+                    Text('Figma \n 21 june 2022'
                       ,),
                     SizedBox(width: 60),
                     Row(
