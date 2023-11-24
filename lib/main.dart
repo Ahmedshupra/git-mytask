@@ -9,6 +9,7 @@ void main() {
           appBar: AppBar(
             backgroundColor: Colors.blueGrey,
             title: Text('F_Assinment_1',
+            t
             style: TextStyle(),
             ),
             leading: Icon(Icons.account_circle,

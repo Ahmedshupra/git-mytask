@@ -19,10 +19,14 @@ void main() {
             ),
 
             ),
+            centerTitle: true,
             actions: [
+
             Icon(Icons.search_rounded,
               color: Colors.black,),
+              SizedBox(width: 20,)
             ],
+
           ),
           body: Container(
             margin: EdgeInsets.all(20),
